@@ -136,12 +136,28 @@ st.caption(
 st.markdown(
     "We onderzoeken Amsterdamse woningadvertenties uit een "
     "Funda-bestand van oktober 2026. Per woning berekenen we "
-    "vraagprijs ÷ woonoppervlak; per buurt nemen we daarvan "
-    "de mediaan: de middelste waarde. Parkeerplaatsen en "
-    "bouwgrond tellen niet mee. Alleen buurten met complete "
-    "buurtkenmerken en minimaal 5 advertenties worden gemodelleerd; "
-    "via de zijbalk kun je kiezen voor minimaal 10."
+    "de vraagprijs per m²: vraagprijs gedeeld door woonoppervlak. "
+    "Per buurt nemen we daarvan de mediaan: de middelste waarde."
 )
+
+st.markdown(
+    "Ons model voorspelt deze buurtmediaan op basis van drie "
+    "**buurtkenmerken uit 2024**: het mediane besteedbare "
+    "huishoudinkomen, het aantal inwoners per km² land en het "
+    "percentage woningen waarin de eigenaar zelf woont. "
+    "We vergelijken de voorspelling met de waargenomen "
+    "vraagprijsmediaan."
+)
+
+st.caption(
+    "Parkeerplaatsen en bouwgrond tellen niet mee. "
+    "Alleen buurten met complete buurtkenmerken, een berekenbare "
+    "vraagprijs per m² voor minimaal 5 advertenties en een "
+    "bevestigde buurtkoppeling worden gemodelleerd. Via de "
+    "zijbalk kun je kiezen voor minimaal 10 advertenties."
+)
+
+
 
 st.markdown(
     "**Belangrijkste bevinding:** Willemsparkbuurt-Noord, "
