@@ -134,6 +134,16 @@ st.caption(
 )
 
 st.markdown(
+    "We onderzoeken Amsterdamse woningadvertenties uit een "
+    "Funda-bestand van oktober 2026. Per woning berekenen we "
+    "vraagprijs ÷ woonoppervlak; per buurt nemen we daarvan "
+    "de mediaan: de middelste waarde. Parkeerplaatsen en "
+    "bouwgrond tellen niet mee. Alleen buurten met complete "
+    "buurtkenmerken en minimaal 5 advertenties worden gemodelleerd; "
+    "via de zijbalk kun je kiezen voor minimaal 10."
+)
+
+st.markdown(
     "**Belangrijkste bevinding:** Willemsparkbuurt-Noord, "
     "Zuidas-Noord en Baaibuurt-West hebben bij de hoofdselectie "
     "van minimaal vijf advertenties de grootste positieve "
