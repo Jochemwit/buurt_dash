@@ -21,7 +21,7 @@ st.set_page_config(
     layout="wide",
 )
 
-DATA_MAP = Path(__file__).parent / "data" / "processed"
+DATA_MAP = Path(__file__).parent
 
 KENMERKEN = [
     "mediaan_inkomen",
